@@ -7,12 +7,14 @@
  * Created: Sep 20, 2023
  */
 
--- User user/pass
+-- USER=user or user@gmail.com
+
+-- PASSWORD=pass
 
 INSERT INTO users (user_name, email,password)
   values ('user',
-    'anderk222@gmail.com',    
-    '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a'
+    'user@gmail.com',    
+    '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a' --pass
  );
 
 INSERT INTO authorities (name) VALUES('USER');
